@@ -5,19 +5,112 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity_210908"
+    android:orientation="vertical"
+    android:padding="30dp"
     >
 
-    <Button
+    <!--region Add ID-->
+    <!--<Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="안녕하세요"
+        android:text="Hello"
         android:id="@+id/btn1"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="안녕하세요"
-        android:id="@+id/btn2"/>
+        android:id="@+id/btn2"/>-->
+    <!--endregion-->
 
+    <!--region OtherControl-->
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="성별 선택"
+        android:id="@+id/textView1"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="여성"
+        android:id="@+id/radio1"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="남성"
+        android:id="@+id/radio2"/>-->
+    <!--endregion-->
+
+    <!--region Size Control & Color-->
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="안녕하세요"
+        android:backgroundTint="#00ff00"/>
+
+    <Button
+        android:layout_width="300px"
+        android:layout_height="400px"
+        android:text="안녕하세요"
+        android:backgroundTint="@color/black"/>-->
+    <!--endregion-->
+
+    <!--region Margin & Padding-->
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아래에 이름을 입력하세요"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="여기에 채우세요"
+        android:layout_margin="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="확인" />-->
+    <!--endregion-->
+
+    <!--region Margin & Padding-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="확인1" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="확인2"
+        android:visibility="invisible"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="확인3"
+        android:visibility="gone"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="확인4"
+        android:enabled="false"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="확인5"
+        android:clickable="false"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="확인6"
+        android:rotation="90"/>
+    <!--endregion-->
 
 </LinearLayout>
